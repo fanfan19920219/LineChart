@@ -15,6 +15,12 @@
 		BDB197FC1D4061F7000B1E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB197FA1D4061F7000B1E78 /* LaunchScreen.storyboard */; };
 		BDB198071D4061F7000B1E78 /* LineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198061D4061F7000B1E78 /* LineChartTests.m */; };
 		BDB198121D4061F7000B1E78 /* LineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198111D4061F7000B1E78 /* LineChartUITests.m */; };
+		BDB198291D40623D000B1E78 /* LineDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198201D40623D000B1E78 /* LineDataModel.m */; };
+		BDB1982A1D40623D000B1E78 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198221D40623D000B1E78 /* LineView.m */; };
+		BDB1982B1D40623D000B1E78 /* backGroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198241D40623D000B1E78 /* backGroundLayer.m */; };
+		BDB1982C1D40623D000B1E78 /* PointLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198261D40623D000B1E78 /* PointLayer.m */; };
+		BDB1982D1D40623D000B1E78 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB198281D40623D000B1E78 /* UIColor+Hex.m */; };
+		BDB198301D40631D000B1E78 /* LineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB1982F1D40631D000B1E78 /* LineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		BDB1980D1D4061F7000B1E78 /* LineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB198111D4061F7000B1E78 /* LineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChartUITests.m; sourceTree = "<group>"; };
 		BDB198131D4061F7000B1E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB1981F1D40623D000B1E78 /* LineDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDataModel.h; sourceTree = "<group>"; };
+		BDB198201D40623D000B1E78 /* LineDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineDataModel.m; sourceTree = "<group>"; };
+		BDB198211D40623D000B1E78 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		BDB198221D40623D000B1E78 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		BDB198231D40623D000B1E78 /* backGroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backGroundLayer.h; sourceTree = "<group>"; };
+		BDB198241D40623D000B1E78 /* backGroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backGroundLayer.m; sourceTree = "<group>"; };
+		BDB198251D40623D000B1E78 /* PointLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointLayer.h; sourceTree = "<group>"; };
+		BDB198261D40623D000B1E78 /* PointLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointLayer.m; sourceTree = "<group>"; };
+		BDB198271D40623D000B1E78 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		BDB198281D40623D000B1E78 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		BDB1982E1D40631D000B1E78 /* LineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineViewController.h; sourceTree = "<group>"; };
+		BDB1982F1D40631D000B1E78 /* LineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +124,18 @@
 				BDB197F21D4061F7000B1E78 /* ViewController.h */,
 				BDB197F31D4061F7000B1E78 /* ViewController.m */,
 				BDB197F51D4061F7000B1E78 /* Main.storyboard */,
+				BDB1981F1D40623D000B1E78 /* LineDataModel.h */,
+				BDB198201D40623D000B1E78 /* LineDataModel.m */,
+				BDB198211D40623D000B1E78 /* LineView.h */,
+				BDB198221D40623D000B1E78 /* LineView.m */,
+				BDB198231D40623D000B1E78 /* backGroundLayer.h */,
+				BDB198241D40623D000B1E78 /* backGroundLayer.m */,
+				BDB198251D40623D000B1E78 /* PointLayer.h */,
+				BDB198261D40623D000B1E78 /* PointLayer.m */,
+				BDB198271D40623D000B1E78 /* UIColor+Hex.h */,
+				BDB198281D40623D000B1E78 /* UIColor+Hex.m */,
+				BDB1982E1D40631D000B1E78 /* LineViewController.h */,
+				BDB1982F1D40631D000B1E78 /* LineViewController.m */,
 				BDB197F81D4061F7000B1E78 /* Assets.xcassets */,
 				BDB197FA1D4061F7000B1E78 /* LaunchScreen.storyboard */,
 				BDB197FD1D4061F7000B1E78 /* Info.plist */,
@@ -270,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB1982C1D40623D000B1E78 /* PointLayer.m in Sources */,
 				BDB197F41D4061F7000B1E78 /* ViewController.m in Sources */,
+				BDB198301D40631D000B1E78 /* LineViewController.m in Sources */,
+				BDB1982B1D40623D000B1E78 /* backGroundLayer.m in Sources */,
+				BDB198291D40623D000B1E78 /* LineDataModel.m in Sources */,
 				BDB197F11D4061F7000B1E78 /* AppDelegate.m in Sources */,
+				BDB1982D1D40623D000B1E78 /* UIColor+Hex.m in Sources */,
 				BDB197EE1D4061F7000B1E78 /* main.m in Sources */,
+				BDB1982A1D40623D000B1E78 /* LineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
